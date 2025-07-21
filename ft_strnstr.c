@@ -1,28 +1,26 @@
-char	*ft_strnstr(const char	*s1, const char	*s2, size_t	len)
+char *ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	size_t	i;
-	size_t	j;
-	size_t	s2_len;
+    size_t n;
+    size_t h;
 
-	s2_len = ft_strlen(s2);
-	if (!s2_len)
-		return ((char *)s1);
-	i = 0;
-	while (s1[i] && (i + s2_len <= len))
-	{
-		if (s1[i] == s2[0])
-		{
-			j = 0;
-			while (s1[i + j] && s2[j])
-			{
-				if (s1[i + j] != s2[j])
-					break ;
-				else if (j == s2_len - 1)
-					return ((char *)s1 + i);
-				j++;
-			}
-		}
-		i++;
-	}
-	return (NULL);
+    if (needle[0] == '\0')
+        return ((char *)haystack);
+    if (len == 0)
+        return (NULL);
+    h = 0;
+    while (haystack[h] != '\0' && h < len)
+    {
+        n = 0;  // Resetar n aqui, antes da comparação
+        if (haystack[h] == needle[n])
+        {
+            while (haystack[h + n] == needle[n] && (h + n) < len)
+            {
+                if (needle[n + 1] == '\0')
+                    return ((char *)haystack + h);
+                n++;
+            }
+        }
+        h++;
+    }
+    return (NULL);
 }
