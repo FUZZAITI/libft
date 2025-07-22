@@ -4,7 +4,7 @@ CC = cc
 
 CFLAGS = -Wall -Wextra -Werror -g3
 
-FILES = ft_atoi.c\
+FILES = ft_strnstr.c\
 ft_isascii.c\
 ft_memcpy.c\
 ft_strrchr.c\
@@ -23,7 +23,7 @@ ft_toupper.c\
 ft_isalpha.c\
 ft_memcmp.c\
 ft_strdup.c\
-ft_strnstr.c
+ft_strlcat.c
 
 
 OUTPUTS := $(FILES:.c=.o)
