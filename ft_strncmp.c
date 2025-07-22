@@ -6,11 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:42:16 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 11:14:47 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 12:11:28 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> 
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

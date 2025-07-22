@@ -26,6 +26,7 @@ ft_memcmp.c\
 ft_strdup.c\
 ft_strnstr.c
 
+
 OUTPUTS := $(FILES:.c=.o)
 
 all: $(NAME)

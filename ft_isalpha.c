@@ -6,11 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:39:40 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 11:47:02 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 12:10:24 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_isalpha(int c)
 {

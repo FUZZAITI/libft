@@ -6,11 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:02 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:57:41 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 12:10:34 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_isdigit(int c)
 {

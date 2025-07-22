@@ -6,11 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:42:38 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 11:30:27 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 12:32:10 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 int	ft_tolower(int c)
 {

@@ -6,11 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:42:26 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 11:38:53 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 12:11:39 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {
