@@ -10,7 +10,7 @@ char *ft_strnstr(const char *haystack, const char *needle, size_t len)
     h = 0;
     while (haystack[h] != '\0' && h < len)
     {
-        n = 0;  // Resetar n aqui, antes da comparação
+        n = 0;  
         if (haystack[h] == needle[n])
         {
             while (haystack[h + n] == needle[n] && (h + n) < len)
