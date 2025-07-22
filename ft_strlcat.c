@@ -6,7 +6,7 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:54 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 18:26:55 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 18:59:57 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		x++;
 	if (size > x)
 	{	
+		x = 0;
 		while (src[x] != '\0')
 		{
 			if (i < size - 1)
