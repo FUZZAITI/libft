@@ -6,12 +6,11 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:48 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 12:11:14 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 14:44:38 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 char	*ft_strdup(const char *s)
 {

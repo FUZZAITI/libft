@@ -6,7 +6,7 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:29 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 12:11:00 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 14:40:45 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		i = (int)len - 1;
 		while (i >= 0)
 		{
-			*(char*)(dst + i) = *(char*)(src + i);
+			*(char *)(dst + i) = *(char *)(src + i);
 			i--;
 		}
 	}
@@ -32,7 +32,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		i = 0;
 		while (i < (int)len)
 		{
-			*(char*)(dst + i) = *(char*)(src + i);
+			*(char *)(dst + i) = *(char *)(src + i);
 			i++;
 		}
 	}

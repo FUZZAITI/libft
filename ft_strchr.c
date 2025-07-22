@@ -6,7 +6,7 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:44 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 12:11:08 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 14:49:11 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,10 @@ char	*ft_strchr(const char *s, int c)
 	while (s[i] != '\0')
 	{
 		if (s[i] == (char)c)
-			return ((char*)(s + i));
+			return ((char *)(s + i));
 		i++;
 	}
 	if ((char)c == '\0')
 		return ((char *)(s + i));
-
 	return (NULL);
 }
