@@ -6,16 +6,15 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:39:45 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:37:24 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 10:58:36 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_isascii(int c) 
+int	ft_isascii(int c)
 {
-    if (c >= 0 && c <= 127)
-        return 1;
-    
-    return 0;
+	if (c >= 0 && c <= 127)
+		return (1);
+	return (0);
 }

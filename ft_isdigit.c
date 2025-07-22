@@ -6,16 +6,15 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:02 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:37:17 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 10:57:41 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if (c >= '0' && c <= '9')
-        return 1;
-        
-    return 0;
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }

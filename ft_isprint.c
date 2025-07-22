@@ -6,16 +6,15 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:40:07 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:36:54 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 10:58:29 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_isprint(int c) 
+int	ft_isprint(int c)
 {
-    if (c >= 32 && c <= 126)
-        return 1;
-    
-    return 0;
+	if (c >= 32 && c <= 126)
+		return (1);
+	return (0);
 }

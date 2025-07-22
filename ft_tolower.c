@@ -6,16 +6,15 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:42:38 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:37:44 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 11:30:27 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-        c += 32; 
-    
-    return c;
+	if (c >= 'A' && c <= 'Z')
+		c += 32;
+	return (c);
 }

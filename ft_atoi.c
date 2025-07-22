@@ -6,14 +6,13 @@
 /*   By: pepinhei <pepinhei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 09:39:16 by pepinhei          #+#    #+#             */
-/*   Updated: 2025/07/22 10:37:40 by pepinhei         ###   ########.fr       */
+/*   Updated: 2025/07/22 10:51:23 by pepinhei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int
-	ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	is_neg;
